@@ -25,6 +25,7 @@ setup(
             'camera_node = ros2_doma_odometry.sensors.camera_node:main',
             'gps_node = ros2_doma_odometry.sensors.gps_node:main',
             'imu_node = ros2_doma_odometry.sensors.imu_node:main',
+            'odom_node = ros2_doma_odometry.doma_vodom:main',
         ],
     },
 )
